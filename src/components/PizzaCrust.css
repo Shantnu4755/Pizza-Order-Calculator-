@@ -1,0 +1,26 @@
+.pizza-crust {
+    font-family: 'Arial', sans-serif;
+    /* Change the font family */
+    text-align: center;
+    margin: 20px;
+}
+
+.pizza-crust h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.pizza-crust select {
+    font-family: 'Arial', sans-serif;
+    /* Match the select font to the container */
+    font-weight: normal;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #150606;
+    font-size: 1em;
+}
+
+.pizza-crust option {
+    font-weight: bold;
+    /* Make option values bold */
+}

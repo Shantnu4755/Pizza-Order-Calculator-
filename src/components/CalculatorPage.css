@@ -1,0 +1,35 @@
+.calculator-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: white;
+    /* Added black background color */
+    background-image: url('https://media.istockphoto.com/id/1479588126/photo/background-abstract-pink-and-black-dark-are-light-with-the-gradient.webp?b=1&s=170667a&w=0&k=20&c=T7c5k19u5y9X6uI7wyyFKkIVXpYbMN0V4wRFSFpLwSw=');
+    color: white;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    /* Center-aligns the text */
+}
+
+.calculator-page h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: yellow;
+}
+
+.order-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.order-button:hover {
+    background-color: #219150;
+}

@@ -1,0 +1,31 @@
+.calculator-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: aside;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    /* Center-aligns the text */
+}
+
+.calculator-page h1 {
+    margin-bottom: 20px;
+    font-family: Georgia, serif;
+}
+
+.order-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.order-button:hover {
+    background-color: #219150;
+}
